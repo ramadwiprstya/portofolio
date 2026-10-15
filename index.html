@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>Rama Dwi Prasetya | Web Developer &amp; Full-Stack Portfolio</title>
+  <meta name="title" content="Rama Dwi Prasetya | Web Developer &amp; Full-Stack Portfolio">
+  <meta name="description"
+    content="Personal portfolio of Rama Dwi Prasetya — Information Systems student at Telkom University Jakarta specializing in Web Development, Full-Stack Development, Laravel, PHP, MySQL, and UI/UX Design.">
+  <meta name="author" content="Rama Dwi Prasetya">
+  <meta name="keywords"
+    content="Rama Dwi Prasetya, Web Developer, Full-Stack Developer, Laravel, PHP, MySQL, UI/UX Design, Telkom University Jakarta, Sistem Informasi">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rama Dwi Prasetya | Web Developer &amp; Full-Stack Portfolio">
+  <meta property="og:description"
+    content="Personal portfolio of Rama Dwi Prasetya — Web Developer, Full-Stack Developer, Laravel, PHP, MySQL, and UI/UX Designer.">
+  <meta property="og:image" content="assets/images/profile.svg">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Skip to Main Content Link for Accessibility -->
+  <a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+  <!-- Header / Navigation -->
+  <header class="navbar-wrapper" id="header">
+    <nav class="navbar container" aria-label="Navigasi Utama">
+      <a href="#home" class="nav-brand" aria-label="Rama Dwi Prasetya Beranda">
+        <span class="brand-text">RDP<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Hamburger Button for Mobile -->
+      <button type="button" class="nav-toggle" id="nav-toggle" aria-controls="nav-menu" aria-expanded="false"
+        aria-label="Buka menu navigasi">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section section" id="home">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-name">Rama Dwi Prasetya</h1>
+
+          <p class="hero-role">Web Developer | Full-Stack Development | Laravel, PHP &amp; MySQL</p>
+
+          <p class="hero-desc">
+            Information Systems student at Telkom University with an interest in web development, full-stack
+            applications, database management, and user-centered digital solutions.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/ramadwiprstya/" target="_blank" rel="noopener noreferrer"
+              class="social-link" aria-label="Profil LinkedIn Rama Dwi Prasetya">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/ramadwiprstya" target="_blank" rel="noopener noreferrer" class="social-link"
+              aria-label="Profil GitHub Rama Dwi Prasetya">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Introduction</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-text">
+              I am an Information Systems student at Telkom University, Jakarta Campus, with a strong interest in
+              software development, particularly websites and web-based applications.
+            </p>
+            <p class="about-text">
+              I have experience developing various information technology projects, including a school attendance
+              system, FitTrack for daily calorie tracking, a commercial property company profile website for Beltway
+              Office Park, a To-Do List application, a financial tracking application, a school complaint management
+              system, and a drought monitoring system in Gunungkidul.
+            </p>
+            <p class="about-text">
+              I also have professional experience as a UI/UX Designer at PT Telkom DCS and as a Full-Stack Developer Intern
+              at PT Imeco Inter Saran, within the SBU Property and Infrastructure, focusing on commercial property
+              website development.
+            </p>
+            <p class="about-text">
+              I am passionate about building functional, user-friendly digital solutions that address real user needs. I
+              continuously develop my technical skills, explore new technologies, and collaborate with others to deliver
+              effective information systems.
+            </p>
+          </div>
+
+          <div class="about-highlights">
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <h3 class="highlight-title">Education</h3>
+                <p class="highlight-desc">Telkom University Kampus Jakarta</p>
+                <span class="highlight-detail">S1 Sistem Informasi</span>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <h3 class="highlight-title">Core Development</h3>
+                <p class="highlight-desc">Full-Stack &amp; Web Apps</p>
+                <span class="highlight-detail">Laravel, PHP, MySQL, JavaScript</span>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                  </path>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <h3 class="highlight-title">Design &amp; Architecture</h3>
+                <p class="highlight-desc">User-Centered Approach</p>
+                <span class="highlight-detail">UI/UX Design, BPMN &amp; Enterprise Architecture</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Career Journey</span>
+          <h2 class="section-title">Experience</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience Item 1 -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-role-group">
+                  <h3 class="timeline-role">Full-Stack Developer Intern</h3>
+                  <p class="timeline-company">PT Imeco Inter Saran</p>
+                </div>
+                <div class="timeline-badge-wrap">
+                  <span class="badge badge-navy">SBU Property and Infrastructure</span>
+                  <span class="timeline-date">Juni 2026 – Agustus 2026</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <p class="timeline-desc">
+                  Berperan dalam unit bisnis SBU Property and Infrastructure dengan fokus utama pada pengembangan
+                  website commercial property.
+                </p>
+                <ul class="timeline-points">
+                  <li>Fokus pada pengembangan website commercial property yang fungsional, terstruktur, dan responsif.
+                  </li>
+                  <li>Implementasi komponen antarmuka dan integrasi logika sistem pendukung informasi properti.</li>
+                </ul>
+                <div class="tech-pills">
+                  <span class="pill">Web Development</span>
+                  <span class="pill">Commercial Property</span>
+                  <span class="pill">Full-Stack</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience Item 2 -->
+          <article class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div class="timeline-role-group">
+                  <h3 class="timeline-role">UI/UX Designer</h3>
+                  <p class="timeline-company">PT Telkom DCS</p>
+                </div>
+                <div class="timeline-badge-wrap">
+                  <span class="badge badge-navy">UI/UX Design</span>
+                  <span class="timeline-date">Februari 2022 – Mei 2022</span>
+                </div>
+              </div>
+
+              <div class="timeline-body">
+                <p class="timeline-desc">
+                  Merancang antarmuka aplikasi web dengan memperhatikan konsistensi visual, kemudahan navigasi, dan
+                  pengalaman pengguna.
+                </p>
+                <ul class="timeline-points">
+                  <li>Merancang antarmuka aplikasi web yang intuitif dan mudah dipahami oleh pengguna.</li>
+                  <li>Memperhatikan konsistensi visual, standarisasi komponen desain, dan efisiensi navigasi sistem.
+                  </li>
+                  <li>Mengoptimalkan alur interaksi pengguna (user experience) pada lingkungan aplikasi digital.</li>
+                </ul>
+                <div class="tech-pills">
+                  <span class="pill">UI Design</span>
+                  <span class="pill">User Experience</span>
+                  <span class="pill">Design Consistency</span>
+                  <span class="pill">Web Interface</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Portfolio Works</span>
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">
+            Kumpulan proyek pengembangan web, aplikasi sistem informasi, analisis proses bisnis, UI/UX design, dan
+            analisis data.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-wrapper" role="region" aria-label="Filter Kategori Proyek">
+          <div class="filter-buttons" id="project-filters">
+            <button type="button" class="filter-btn active" data-filter="all" aria-pressed="true">
+              All <span class="filter-count">(11)</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="web-development" aria-pressed="false">
+              Web Development <span class="filter-count">(7)</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="ui-ux-design" aria-pressed="false">
+              UI/UX Design <span class="filter-count">(1)</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="business-analysis" aria-pressed="false">
+              Business Analysis <span class="filter-count">(1)</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="enterprise-architecture" aria-pressed="false">
+              Enterprise Architecture <span class="filter-count">(1)</span>
+            </button>
+            <button type="button" class="filter-btn" data-filter="data-analytics" aria-pressed="false">
+              Data Analytics <span class="filter-count">(1)</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Projects Grid (All 11 Projects) -->
+        <div class="projects-grid" id="projects-grid">
+
+          <!-- Project 1 -->
+          <article class="project-card" data-category="web-development" data-id="1">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Full-Stack Development</span>
+              </div>
+              <h3 class="project-title">Website Absensi Sekolah</h3>
+              <p class="project-desc">
+                Sistem absensi menggunakan Laravel, PHP, dan MySQL. Dilengkapi fitur autentikasi multi-role, pengelolaan
+                data kehadiran, dan laporan rekapitulasi.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Blade</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="1">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card" data-category="web-development" data-id="2">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Web Application</span>
+              </div>
+              <h3 class="project-title">FitTrack</h3>
+              <p class="project-desc">
+                Aplikasi pemantauan nutrisi dan kalori harian dengan dashboard interaktif, pelacak konsumsi makanan
+                harian, serta pelaporan progres kebugaran.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">Web Application</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Dashboard</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="2">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card" data-category="web-development" data-id="3">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Website Development</span>
+              </div>
+              <h3 class="project-title">Website Company Profile — Beltway Office Park</h3>
+              <p class="project-desc">
+                Website company profile profesional untuk kawasan perkantoran komersial Beltway Office Park (SBU
+                Property and Infrastructure).
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="3">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card" data-category="web-development" data-id="4">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Web Application</span>
+              </div>
+              <h3 class="project-title">Aplikasi To-Do List</h3>
+              <p class="project-desc">
+                Aplikasi web untuk pencatatan dan pengelolaan tugas harian, pelacakan status pekerjaan, dan pengaturan
+                prioritas aktivitas.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">JavaScript ES6+</span>
+                <span class="tech-tag">LocalStorage</span>
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="4">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card" data-category="web-development" data-id="5">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Web Application</span>
+              </div>
+              <h3 class="project-title">Aplikasi Pencatatan Keuangan</h3>
+              <p class="project-desc">
+                Aplikasi web manajemen arus kas keuangan pribadi untuk mencatat riwayat pemasukan, pengeluaran, serta
+                ringkasan saldo keuangan.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Cashflow</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="5">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card" data-category="web-development" data-id="6">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Information System</span>
+              </div>
+              <h3 class="project-title">Sistem Layanan Pengaduan Sekolah</h3>
+              <p class="project-desc">
+                Sistem informasi terstruktur untuk penyampaian laporan, aduan, dan aspirasi di lingkungan sekolah secara
+                transparan dan terdokumentasi.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">Information System</span>
+                <span class="tech-tag">PHP / Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Ticketing</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="6">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 7 -->
+          <article class="project-card" data-category="web-development" data-id="7">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Information System</span>
+              </div>
+              <h3 class="project-title">Sistem Monitoring Kekeringan di Gunungkidul</h3>
+              <p class="project-desc">
+                Sistem informasi kebencanaan regional untuk mendukung pemantauan kondisi kekeringan wilayah serta
+                manajemen penyaluran pasokan air bersih.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">Information System</span>
+                <span class="tech-tag">Web GIS / Map</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="7">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 8 -->
+          <article class="project-card" data-category="business-analysis" data-id="8">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Business Process Analysis</span>
+              </div>
+              <h3 class="project-title">Business Process Analyst — Studi Kasus PT Pegadaian</h3>
+              <p class="project-desc">
+                Analisis proses bisnis operasional AS-IS, pemodelan diagram alur proses target TO-BE menggunakan BPMN,
+                dan usulan perbaikan efisiensi layanan.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">BPMN 2.0</span>
+                <span class="tech-tag">AS-IS &amp; TO-BE</span>
+                <span class="tech-tag">Process Modeling</span>
+                <span class="tech-tag">Gap Analysis</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="8">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 9 -->
+          <article class="project-card" data-category="ui-ux-design" data-id="9">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">UI/UX Design</span>
+              </div>
+              <h3 class="project-title">UI/UX Designer — Studi Kasus PT Pegadaian</h3>
+              <p class="project-desc">
+                Riset pengguna, pembuatan wireframe, perancangan prototipe interaktif (high-fidelity), serta optimasi
+                alur pengguna (user flow) aplikasi.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">Figma</span>
+                <span class="tech-tag">User Research</span>
+                <span class="tech-tag">Wireframing</span>
+                <span class="tech-tag">Prototyping</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="9">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 10 -->
+          <article class="project-card" data-category="enterprise-architecture" data-id="10">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Enterprise Architecture</span>
+              </div>
+              <h3 class="project-title">Enterprise Architecture — Studi Kasus PT Graha Kreatif</h3>
+              <p class="project-desc">
+                Perancangan arsitektur enterprise menggunakan kerangka kerja TOGAF ADM untuk menyelaraskan strategi
+                bisnis, arsitektur data, aplikasi, dan teknologi.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">TOGAF ADM</span>
+                <span class="tech-tag">Enterprise Architecture</span>
+                <span class="tech-tag">IT Alignment</span>
+                <span class="tech-tag">ArchiMate</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="10">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 11 -->
+          <article class="project-card" data-category="data-analytics" data-id="11">
+            <div class="project-card-body">
+              <div class="project-card-badge-wrap">
+                <span class="project-tag">Data Analytics</span>
+              </div>
+              <h3 class="project-title">Data Analyst — Studi Kasus Dataset Toko Retail</h3>
+              <p class="project-desc">
+                Eksplorasi data penjualan ritel, tahapan ETL, analisis tren belanja musiman, performa kategori produk,
+                dan penyusunan dashboard visualisasi data.
+              </p>
+              <div class="project-tech-list">
+                <span class="tech-tag">ETL</span>
+                <span class="tech-tag">Data Analytics</span>
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Visualization</span>
+              </div>
+              <div class="project-card-actions">
+                <button type="button" class="btn btn-sm btn-primary btn-view-details" data-project-id="11">
+                  View Details
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Core Competencies</span>
+          <h2 class="section-title">Skills &amp; Expertise</h2>
+          <p class="section-subtitle">
+            Keahlian teknis dan kompetensi interpersonal yang terus dikembangkan dalam bidang teknologi informasi dan
+            rekayasa perangkat lunak.
+          </p>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Hard Skills -->
+          <div class="skills-card">
+            <div class="skills-card-header">
+              <div class="skills-card-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skills-group-title">Hard Skills</h3>
+                <p class="skills-group-desc">Keahlian teknis, bahasa pemrograman, dan tools pengembangan</p>
+              </div>
+            </div>
+
+            <div class="skill-chips-container" aria-label="Daftar Hard Skills">
+              <span class="skill-chip">
+                <span class="chip-dot" aria-hidden="true"></span>
+                Web Development
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot" aria-hidden="true"></span>
+                Full-Stack Development
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot" aria-hidden="true"></span>
+                Laravel
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot" aria-hidden="true"></span>
+                PHP
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot" aria-hidden="true"></span>
+                MySQL
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot" aria-hidden="true"></span>
+                UI/UX Design
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot" aria-hidden="true"></span>
+                Database Management
+              </span>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skills-card">
+            <div class="skills-card-header">
+              <div class="skills-card-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skills-group-title">Soft Skills</h3>
+                <p class="skills-group-desc">Karakter kerja sama tim, komunikasi, dan pemecahan masalah</p>
+              </div>
+            </div>
+
+            <div class="skill-chips-container" aria-label="Daftar Soft Skills">
+              <span class="skill-chip">
+                <span class="chip-dot soft-dot" aria-hidden="true"></span>
+                Problem Solving
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot soft-dot" aria-hidden="true"></span>
+                Critical Thinking
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot soft-dot" aria-hidden="true"></span>
+                Teamwork
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot soft-dot" aria-hidden="true"></span>
+                Adaptability
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot soft-dot" aria-hidden="true"></span>
+                Responsibility
+              </span>
+              <span class="skill-chip">
+                <span class="chip-dot soft-dot" aria-hidden="true"></span>
+                Communication
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-kicker">Professional Validation</span>
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="cert-container">
+          <article class="cert-card">
+            <div class="cert-content">
+              <div class="cert-issuer-badge">
+                <span class="cert-badge-tag">Badan Nasional Sertifikasi Profesi (BNSP)</span>
+              </div>
+              <div class="cert-type-label">CERTIFICATE OF COMPETENCE</div>
+              <h3 class="cert-title">Kualifikasi II Rekayasa Perangkat Lunak</h3>
+              <p class="cert-meta">
+                <strong>Penerbit / Issuer:</strong> BNSP (Badan Nasional Sertifikasi Profesi)
+              </p>
+              <p class="cert-desc">
+                Sertifikasi kompetensi resmi bidang Rekayasa Perangkat Lunak yang memvalidasi standar keahlian dalam
+                perancangan, implementasi, pengujian, dan pemeliharaan perangkat lunak sesuai standar okupasi nasional.
+              </p>
+
+              <div class="cert-actions">
+                <span class="cert-credential-badge">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                    <polyline points="9 12 11 14 15 10"></polyline>
+                  </svg>
+                  <span>No. Sertifikat: <strong>62010 3514 2 0001227 2023</strong></span>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-hidden="true"
+    aria-labelledby="modal-project-title">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-category" id="modal-project-category">Category</span>
+          <h3 class="modal-title" id="modal-project-title">Project Title</h3>
+        </div>
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Tutup jendela modal">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4 class="modal-section-title">Deskripsi Lengkap</h4>
+          <p class="modal-desc" id="modal-project-desc"></p>
+        </div>
+
+        <div class="modal-section" id="modal-features-container">
+          <h4 class="modal-section-title">Fitur &amp; Ruang Lingkup Utama</h4>
+          <ul class="modal-features-list" id="modal-project-features">
+            <!-- Populated via JavaScript -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" id="modal-footer-close">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container for Feedback -->
+  <div class="toast-container" id="toast-container" aria-live="polite"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">RDP<span class="brand-dot">.</span></span>
+          <p class="footer-author">Rama Dwi Prasetya</p>
+          <p class="footer-field">Web Development • Full-Stack Development • UI/UX Design</p>
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/ramadwiprstya/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn Rama Dwi Prasetya">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/ramadwiprstya" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub Rama Dwi Prasetya">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-nav" aria-label="Navigasi Footer">
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Rama Dwi Prasetya. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="back-to-top" aria-label="Kembali ke atas halaman">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>

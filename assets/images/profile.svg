@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2744" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#60a5fa" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <rect width="400" height="400" rx="200" fill="url(#avatarBg)" />
+  <circle cx="200" cy="200" r="190" fill="none" stroke="url(#ringGrad)" stroke-width="4" stroke-dasharray="10 6" opacity="0.4" />
+  
+  <!-- Silhouette / Monogram Illustration -->
+  <g transform="translate(0, 10)">
+    <!-- Head -->
+    <circle cx="200" cy="140" r="58" fill="#e2e8f0" />
+    <!-- Hair / Accent -->
+    <path d="M148,135 C150,85 180,72 215,72 C248,72 258,95 255,120 C242,108 220,105 195,108 C172,110 156,122 148,135 Z" fill="#0f172a" />
+    <!-- Glasses (Subtle Dev Vibe) -->
+    <rect x="165" y="132" width="28" height="18" rx="4" fill="none" stroke="#0f172a" stroke-width="3" />
+    <rect x="207" y="132" width="28" height="18" rx="4" fill="none" stroke="#0f172a" stroke-width="3" />
+    <line x1="193" y1="140" x2="207" y2="140" stroke="#0f172a" stroke-width="3" />
+    <!-- Smile -->
+    <path d="M188,168 Q200,178 212,168" fill="none" stroke="#334155" stroke-width="3" stroke-linecap="round" />
+    <!-- Shoulders / Body -->
+    <path d="M100,320 C100,240 145,215 200,215 C255,215 300,240 300,320 Z" fill="#e2e8f0" />
+    <!-- Inner Collar -->
+    <polygon points="180,215 220,215 200,250" fill="#cbd5e1" />
+    <polygon points="200,250 190,320 210,320" fill="#0f2744" opacity="0.3" />
+  </g>
+  <!-- Tech Badge -->
+  <g transform="translate(260, 275)">
+    <rect width="110" height="34" rx="17" fill="#0f172a" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="55" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#60a5fa" text-anchor="middle">RDP • DEV</text>
+  </g>
+</svg>

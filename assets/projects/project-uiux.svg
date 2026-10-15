@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_project-uiux" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="100%" stop-color="#4c0519" />
+    </linearGradient>
+    <pattern id="grid_project-uiux" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="640" height="380" fill="url(#bgGrad_project-uiux)" />
+  <rect width="640" height="380" fill="url(#grid_project-uiux)" />
+
+  <!-- Top Glass Bar -->
+  <rect x="25" y="20" width="590" height="38" rx="8" fill="#ffffff" opacity="0.08" />
+  <circle cx="48" cy="39" r="5" fill="#ff5f56" />
+  <circle cx="64" cy="39" r="5" fill="#ffbd2e" />
+  <circle cx="80" cy="39" r="5" fill="#27c93f" />
+
+  <!-- Category & Tag -->
+  <rect x="105" y="27" width="170" height="24" rx="12" fill="#ec4899" opacity="0.9" />
+  <text x="190" y="43" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" fill="#ffffff" letter-spacing="1" text-anchor="middle">UI/UX DESIGN</text>
+
+  <text x="595" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="end">Figma • Wireframing • User Flow</text>
+
+  <!-- Illustration Graphic -->
+  <g transform="translate(230, 95)">
+      <!-- Mobile Device Frame -->
+      <rect x="0" y="0" width="85" height="165" rx="14" fill="#0f172a" stroke="#cbd5e1" stroke-width="2" />
+      <rect x="25" y="6" width="35" height="5" rx="2.5" fill="#334155" />
+      <rect x="6" y="18" width="73" height="135" rx="8" fill="#ffffff" />
+      <!-- UI App content inside phone -->
+      <rect x="12" y="26" width="45" height="6" rx="3" fill="#ec4899" />
+      <circle cx="68" cy="29" r="5" fill="#cbd5e1" />
+      <rect x="12" y="40" width="61" height="32" rx="4" fill="#fdf2f8" stroke="#fbcfe8" />
+      <rect x="12" y="80" width="28" height="28" rx="4" fill="#f1f5f9" />
+      <rect x="45" y="80" width="28" height="28" rx="4" fill="#f1f5f9" />
+      <rect x="12" y="115" width="61" height="12" rx="6" fill="#ec4899" />
+      
+      <!-- Desktop Window Behind -->
+      <g transform="translate(95, 20)">
+        <rect x="0" y="0" width="85" height="125" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+        <rect x="0" y="0" width="85" height="16" rx="8" fill="#f1f5f9" />
+        <circle cx="8" cy="8" r="2.5" fill="#ef4444" />
+        <circle cx="16" cy="8" r="2.5" fill="#f59e0b" />
+        <circle cx="24" cy="8" r="2.5" fill="#10b981" />
+        <rect x="10" y="26" width="65" height="22" rx="4" fill="#eff6ff" />
+        <rect x="10" y="56" width="65" height="4" rx="2" fill="#94a3b8" />
+        <rect x="10" y="66" width="45" height="4" rx="2" fill="#cbd5e1" />
+        <rect x="10" y="80" width="30" height="20" rx="3" fill="#ec4899" opacity="0.3" />
+        <rect x="45" y="80" width="30" height="20" rx="3" fill="#3b82f6" opacity="0.3" />
+      </g>
+    </g>
+
+  <!-- Bottom Title Overlay Bar -->
+  <rect x="0" y="300" width="640" height="80" fill="#0f172a" opacity="0.85" />
+  <line x1="0" y1="300" x2="640" y2="300" stroke="#334155" stroke-width="1" />
+  <text x="35" y="338" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="800" fill="#f8fafc">UI/UX Designer — PT Pegadaian</text>
+  <text x="35" y="360" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Klik "View Details" untuk melihat ringkasan, teknologi &amp; repository</text>
+  
+  <rect x="510" y="325" width="95" height="30" rx="6" fill="#ec4899" />
+  <text x="557" y="344" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">DETAILS →</text>
+</svg>

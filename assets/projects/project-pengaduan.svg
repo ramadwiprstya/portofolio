@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad_project-pengaduan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#431407" />
+      <stop offset="100%" stop-color="#7c2d12" />
+    </linearGradient>
+    <pattern id="grid_project-pengaduan" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.08" />
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="640" height="380" fill="url(#bgGrad_project-pengaduan)" />
+  <rect width="640" height="380" fill="url(#grid_project-pengaduan)" />
+
+  <!-- Top Glass Bar -->
+  <rect x="25" y="20" width="590" height="38" rx="8" fill="#ffffff" opacity="0.08" />
+  <circle cx="48" cy="39" r="5" fill="#ff5f56" />
+  <circle cx="64" cy="39" r="5" fill="#ffbd2e" />
+  <circle cx="80" cy="39" r="5" fill="#27c93f" />
+
+  <!-- Category & Tag -->
+  <rect x="105" y="27" width="170" height="24" rx="12" fill="#ea580c" opacity="0.9" />
+  <text x="190" y="43" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" fill="#ffffff" letter-spacing="1" text-anchor="middle">INFORMATION SYSTEM</text>
+
+  <text x="595" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#94a3b8" text-anchor="end">Complaint Ticketing • School System</text>
+
+  <!-- Illustration Graphic -->
+  <g transform="translate(235, 105)">
+      <rect x="0" y="0" width="170" height="150" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="2" />
+      <!-- Ticket Header -->
+      <rect x="15" y="15" width="140" height="30" rx="6" fill="#fff7ed" stroke="#fed7aa" />
+      <circle cx="30" cy="30" r="5" fill="#ea580c" />
+      <text x="44" y="34" font-family="sans-serif" font-size="10" font-weight="bold" fill="#c2410c">TICKET #TK-0824</text>
+      
+      <!-- Status Badge -->
+      <rect x="15" y="55" width="60" height="16" rx="8" fill="#dbeafe" />
+      <text x="45" y="66" font-family="sans-serif" font-size="8" font-weight="bold" fill="#1d4ed8" text-anchor="middle">IN PROGRESS</text>
+      
+      <!-- Lines -->
+      <rect x="15" y="80" width="140" height="6" rx="3" fill="#cbd5e1" />
+      <rect x="15" y="94" width="115" height="6" rx="3" fill="#e2e8f0" />
+      <rect x="15" y="108" width="90" height="6" rx="3" fill="#e2e8f0" />
+      
+      <circle cx="140" cy="130" r="14" fill="#ea580c" />
+      <path d="M135 130 L139 134 L146 126" stroke="#ffffff" stroke-width="2" fill="none" />
+    </g>
+
+  <!-- Bottom Title Overlay Bar -->
+  <rect x="0" y="300" width="640" height="80" fill="#0f172a" opacity="0.85" />
+  <line x1="0" y1="300" x2="640" y2="300" stroke="#334155" stroke-width="1" />
+  <text x="35" y="338" font-family="'Plus Jakarta Sans', sans-serif" font-size="19" font-weight="800" fill="#f8fafc">Sistem Layanan Pengaduan Sekolah</text>
+  <text x="35" y="360" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#94a3b8">Klik "View Details" untuk melihat ringkasan, teknologi &amp; repository</text>
+  
+  <rect x="510" y="325" width="95" height="30" rx="6" fill="#ea580c" />
+  <text x="557" y="344" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">DETAILS →</text>
+</svg>

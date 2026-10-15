@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <pattern id="guilloche" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M0 20 Q10 0 20 20 T40 20" fill="none" stroke="#e2e8f0" stroke-width="0.75" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="560" fill="url(#certBg)" />
+  <rect x="20" y="20" width="760" height="520" fill="url(#guilloche)" opacity="0.4" />
+
+  <!-- Borders -->
+  <rect x="25" y="25" width="750" height="510" fill="none" stroke="#0f2744" stroke-width="3" rx="8" />
+  <rect x="35" y="35" width="730" height="490" fill="none" stroke="#3b82f6" stroke-width="1" stroke-dasharray="6 4" rx="4" opacity="0.7" />
+
+  <!-- Corner Ornaments -->
+  <path d="M 25 60 L 60 25 M 25 70 L 70 25 M 775 60 L 740 25 M 775 70 L 730 25" stroke="#0f2744" stroke-width="1.5" />
+  <path d="M 25 500 L 60 535 M 25 490 L 70 535 M 775 500 L 740 535 M 775 490 L 730 535" stroke="#0f2744" stroke-width="1.5" />
+
+  <!-- Header Emblem / Garuda BNSP Stylized -->
+  <g transform="translate(400, 85)" text-anchor="middle">
+    <circle cx="0" cy="0" r="28" fill="#0f2744" />
+    <path d="M -12 -8 L 0 -18 L 12 -8 L 0 16 Z" fill="#f59e0b" />
+    <circle cx="0" cy="-2" r="4" fill="#ffffff" />
+    
+    <text y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" letter-spacing="3" fill="#64748b">REPUBLIK INDONESIA</text>
+    <text y="68" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" letter-spacing="2" fill="#0f2744">BADAN NASIONAL SERTIFIKASI PROFESI</text>
+    <text y="88" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#2563eb" letter-spacing="1.5">INDONESIAN PROFESSIONAL CERTIFICATION AUTHORITY</text>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="215" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#0f2744" text-anchor="middle" letter-spacing="1">SERTIFIKAT KOMPETENSI</text>
+  <text x="400" y="235" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="500" fill="#64748b" text-anchor="middle">Certificate of Competence • No. Reg: BNSP-PL-2024-XXXX</text>
+
+  <line x1="280" y1="248" x2="520" y2="248" stroke="#cbd5e1" stroke-width="1" />
+
+  <!-- Awarded to -->
+  <text x="400" y="275" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-style="italic" fill="#64748b" text-anchor="middle">Dengan ini menyatakan bahwa,</text>
+  <text x="400" y="312" font-family="'Plus Jakarta Sans', sans-serif" font-size="26" font-weight="800" fill="#0f2744" text-anchor="middle" letter-spacing="0.5">RAMA DWI PRASETYA</text>
+
+  <!-- Competence Details -->
+  <text x="400" y="345" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#475569" text-anchor="middle">Telah dinyatakan kompeten pada bidang keahlian:</text>
+  
+  <rect x="180" y="360" width="440" height="42" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1" />
+  <text x="400" y="386" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#1e3a8a" text-anchor="middle">Kualifikasi II Rekayasa Perangkat Lunak</text>
+
+  <!-- Footer Info / Seal -->
+  <g transform="translate(140, 460)">
+    <line x1="0" y1="0" x2="160" y2="0" stroke="#94a3b8" stroke-width="1" />
+    <text x="80" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Ketua LSP / BNSP</text>
+    <text x="80" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Authorized Signature</text>
+  </g>
+
+  <!-- Gold Seal -->
+  <g transform="translate(400, 455)">
+    <circle cx="0" cy="0" r="34" fill="url(#goldGrad)" opacity="0.95" />
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="4 2" />
+    <polygon points="0,-16 5,-5 16,-5 8,2 11,13 0,7 -11,13 -8,2 -16,-5 -5,-5" fill="#ffffff" />
+    <text y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="1">VERIFIED BNSP</text>
+  </g>
+
+  <g transform="translate(500, 460)">
+    <line x1="0" y1="0" x2="160" y2="0" stroke="#94a3b8" stroke-width="1" />
+    <text x="80" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Manajer Sertifikasi</text>
+    <text x="80" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">Official Verification</text>
+  </g>
+</svg>
